@@ -84,11 +84,15 @@ html {
 .project-container-after:hover {
   opacity: 1;
 }
-.projects-icons {
+.fa-github, .fa-link {
   color: white;
+  margin: 0 2.5%;
+}
+.project-icons {
+  color: white;
+
   transition: all 0.25s;
   margin-right: 2.5%;
-  font-weight: 100;
 }
 .projects-icons:hover {
   color: black;
