@@ -59,6 +59,10 @@ html {
 #projects li {
   height: 100px;
 }
+
+#git {
+  opacity: 1;
+}
 .project-container {
   justify-content: center;
   align-items: center;
