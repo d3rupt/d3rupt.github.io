@@ -70,15 +70,13 @@ html {
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   background: rgba(0,0,0,0.5);
   backdrop-filter: blur(3.5px);
   opacity: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.1s;
+  transition: all 0.3s;
   padding-right: 50%;
 }
 .project-container-after:hover {
@@ -87,15 +85,15 @@ html {
 .fa-github, .fa-link {
   color: white;
   margin: 0 2.5%;
+  opacity: 0.5;
 }
 .project-icons {
   color: white;
-
-  transition: all 0.25s;
   margin-right: 2.5%;
 }
 .projects-icons:hover {
-  color: black;
+  transition: opacity 0.3s;
+  opacity: 1;
 }
 .project-image {
   background-size: cover;
