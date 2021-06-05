@@ -61,7 +61,8 @@ html {
 }
 
 #git {
-  opacity: 1;
+  opacity: 1 !important;
+  border: none !important;
 }
 .project-container {
   justify-content: center;
@@ -88,16 +89,18 @@ html {
 }
 .fa-github, .fa-link {
   color: white;
+}
+.projects-icons {
+  color: white;
   margin: 0 2.5%;
   opacity: 0.5;
-  font-size: 50px;
-}
-.project-icons {
-  color: white;
-  margin-right: 2.5%;
+  font-size: 60px;
+  padding: 10px;
+  border-radius: 50%;
 }
 .projects-icons:hover {
-  transition: opacity 0.3s;
+  transition: all 0.3s;
+  border: 1px solid white;
   opacity: 1;
 }
 .project-image {
